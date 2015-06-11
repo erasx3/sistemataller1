@@ -4,11 +4,18 @@
  * and open the template in the editor.
  */
 package Logica;
-
+import java.util.*;
 /**
  *
  * @author eras
  */
 public class Turno {
+    
+    private int codTurno;
+    private Date fecha;
+    
+    private Cliente cliente;
+    private Vehiculo vehiculo;
+    private Empleado empleado;
     
 }

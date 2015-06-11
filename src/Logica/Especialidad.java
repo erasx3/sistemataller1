@@ -11,4 +11,7 @@ package Logica;
  */
 public class Especialidad {
     
+    private int codEspecialidad;
+    private String Especialidad;
+    
 }

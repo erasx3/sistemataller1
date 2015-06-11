@@ -11,4 +11,5 @@ package Logica;
  */
 public class Cliente {
     
+    private int codCliente;
 }

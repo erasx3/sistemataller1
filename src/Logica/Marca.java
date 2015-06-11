@@ -10,5 +10,6 @@ package Logica;
  * @author eras
  */
 public class Marca {
-    
+    private int codMarca;
+    private String marca;
 }

@@ -11,4 +11,10 @@ package Logica;
  */
 public class Persona {
     
+    private int dni;
+    private String nombre;
+    private String apellido;
+    private String direccion;
+    private String telFijo;
+    private String telCelular;
 }

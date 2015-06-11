@@ -11,4 +11,7 @@ package Logica;
  */
 public class Segmento {
     
+    private int codSegmento;
+    private String segmento;
+    
 }
