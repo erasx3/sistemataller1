@@ -9,6 +9,6 @@ package Logica;
  *
  * @author eras
  */
-public class Reparacion {
+public class Reparacion extends Turno{
     
 }

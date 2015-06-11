@@ -9,6 +9,6 @@ package Logica;
  *
  * @author eras
  */
-public class Diagnostico {
+public class Diagnostico  extends Turno{
     
 }

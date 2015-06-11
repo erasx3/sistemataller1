@@ -11,4 +11,7 @@ package Logica;
  */
 public class Modelo {
     
+    private int codModelo;
+    private String modelo;
+    
 }

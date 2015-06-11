@@ -11,4 +11,7 @@ package Logica;
  */
 public class Localidad {
     
+    private int codLocalidad;
+    private String localidad;
+    
 }

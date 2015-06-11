@@ -11,4 +11,19 @@ package Logica;
  */
 public class Vehiculo {
     
+    private int codVehiculo;
+    private String dominio;
+    private String numChasis;
+    private String numMotor;
+    private short ano;
+    private int kmRecorrido;
+    
+    private Marca marca;
+    private Modelo modelo;
+    private Equipamiento equipamiento;
+    private Accesorio accesorio;
+    private Segmento segmento;
+    
+    private Cliente clinte;
+    
 }
