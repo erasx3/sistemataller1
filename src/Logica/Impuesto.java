@@ -11,4 +11,9 @@ package Logica;
  */
 public class Impuesto {
     
+    private int codImpuesto;
+    private String impuesto;
+    
+    private Operacion operacion[];
+    private Repuesto repuesto[];
 }

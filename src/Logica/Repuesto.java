@@ -11,4 +11,14 @@ package Logica;
  */
 public class Repuesto {
     
+    private int codRepuesto;
+    private String descripcion;
+    private String caracteristica;
+    private Double precio;
+    
+    private Garantia garantia;
+    private Impuesto impuesto;
+    private GrupoParte grupoParte;
+    
+    private DetallePedido detallePedido[];
 }

@@ -11,4 +11,8 @@ package Logica;
  */
 public class GrupoParte {
     
+    private int codGrupo;
+    private String descripcion;
+    
+    private Repuesto repuesto[];
 }

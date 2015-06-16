@@ -14,4 +14,5 @@ public class Segmento {
     private int codSegmento;
     private String segmento;
     
+    private Vehiculo vehiculo[];
 }

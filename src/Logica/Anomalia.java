@@ -9,6 +9,12 @@ package Logica;
  *
  * @author eras
  */
-public class DisponibildadParte {
+public class Anomalia {
     
+    private int codAnomalia;
+    private String descripcion;
+    
+    private Reparacion reparacion;
+    private Diagnostico diagnostico;
+    private Nivel nivel[];
 }

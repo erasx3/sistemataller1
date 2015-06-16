@@ -14,4 +14,6 @@ public class Equipamiento {
     private int codEquipamiento;
     private String equipamiento;
     
+    private Modelo modelo[];
+    
 }

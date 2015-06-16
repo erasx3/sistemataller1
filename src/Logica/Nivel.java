@@ -11,4 +11,11 @@ package Logica;
  */
 public class Nivel {
     
+    private int codNivel;
+    private String nivel;
+    private String descripcion;
+    
+    private Anomalia anomalia[];
+    private Operacion operacion[];
+    
 }

@@ -11,4 +11,8 @@ package Logica;
  */
 public class EstadoOperacion {
     
+    private int codEstadoOp;
+    private String descripcion;
+    
+    private Operacion operacion[];
 }

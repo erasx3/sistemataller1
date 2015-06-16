@@ -11,4 +11,15 @@ package Logica;
  */
 public class Operacion {
     
+    private int codOperacion;
+    private Double costo;
+    private boolean recambio;
+    
+    private Nivel nivel;
+    private EstadoOperacion estadoOperacion;
+    private Garantia garantia;
+    private Impuesto impuesto;
+    
+    private Actividad actividad[];
+    
 }

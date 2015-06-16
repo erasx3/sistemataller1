@@ -12,10 +12,13 @@ import java.util.*;
 public class Turno {
     
     private int codTurno;
-    private Date fecha;
+    private Date fecha;  
     
     private Cliente cliente;
     private Vehiculo vehiculo;
-    private Empleado empleado;
+    private Taller taller;
     
+    private Empleado empleado[];
+    private Pedido pedido[];
+    private TipoEstado tipoEstado[]; /* relacion n a n con tipo de estado */
 }
