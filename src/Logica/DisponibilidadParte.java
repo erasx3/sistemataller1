@@ -9,6 +9,11 @@ package Logica;
  *
  * @author eras
  */
-public class TipodeEstado {
+public class DisponibilidadParte {
+     
+    private int codDisponibilidad;
+    private String descripcion;
+    
+    private DetallePedido detallePedido;
     
 }

@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package Logica;
+import java.util.*;
 
 /**
  *
@@ -11,4 +12,10 @@ package Logica;
  */
 public class Garantia {
     
+    private int codGarantia;
+    private Date fechaVenc;
+    private String cobertura;
+    
+    private Operacion operacion[];
+    private Repuesto repuesto[];
 }

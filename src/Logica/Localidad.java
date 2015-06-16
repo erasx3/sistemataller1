@@ -14,4 +14,6 @@ public class Localidad {
     private int codLocalidad;
     private String localidad;
     
+    private Provincia provincia;
+    
 }

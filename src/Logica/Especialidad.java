@@ -14,4 +14,6 @@ public class Especialidad {
     private int codEspecialidad;
     private String Especialidad;
     
+    private Empleado empleado[];
+    
 }

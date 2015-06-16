@@ -11,4 +11,10 @@ package Logica;
  */
 public class Taller {
     
+    private int CodTaller;
+    private String DiasLaborales;
+    private String Horario;
+    
+    private Turno turno[];
+    private Empleado empleado[];
 }

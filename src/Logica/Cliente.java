@@ -12,4 +12,10 @@ package Logica;
 public class Cliente {
     
     private int codCliente;
+    
+    private Localidad localidad;
+    
+    private Cliente cliente[];
+    private Turno turno[];
+    private Pedido pedido[];
 }

@@ -11,4 +11,8 @@ package Logica;
  */
 public class Reparacion extends Turno{
     
+    private int codReparacion;
+    
+    private Anomalia anomalia[];
+    private Actividad actividad[];
 }

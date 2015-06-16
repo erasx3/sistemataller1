@@ -9,13 +9,15 @@ package Logica;
  *
  * @author eras
  */
-public class Empleado {
+public class TipoEstado {
     
-    private int codEmpleado;
+    private int codTipoEstado;
+    private String tipoEstado;
     
-    private Especialidad especialidad;
-    private Turno turno;
+    private Turno turno[]; /* relacion n a n con turno */
     
-    private Taller taller[];
+    private DetallePedido detallePedido[];
     private Pedido pedido[];
+    private Estado estado[];
+    
 }

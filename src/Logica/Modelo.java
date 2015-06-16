@@ -14,4 +14,10 @@ public class Modelo {
     private int codModelo;
     private String modelo;
     
+    private Marca marca;
+    private Equipamiento equipamiento;
+    private Accesorio accesorio;
+    
+    private Vehiculo vehiculo[];
+    
 }

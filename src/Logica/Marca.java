@@ -12,4 +12,6 @@ package Logica;
 public class Marca {
     private int codMarca;
     private String marca;
+    
+    private Modelo modelo[];
 }

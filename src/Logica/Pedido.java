@@ -11,4 +11,13 @@ package Logica;
  */
 public class Pedido {
     
+    private int codPedido;
+    
+    private Empleado empleado;
+    private Cliente cliente;
+    private Turno turno;
+    private TipoEstado tipoEstado;
+    
+    private DetallePedido detalle[];
+    
 }

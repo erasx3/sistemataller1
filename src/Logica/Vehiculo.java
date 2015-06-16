@@ -17,13 +17,11 @@ public class Vehiculo {
     private String numMotor;
     private short ano;
     private int kmRecorrido;
-    
-    private Marca marca;
-    private Modelo modelo;
-    private Equipamiento equipamiento;
-    private Accesorio accesorio;
+       
+    private Modelo modelo;    
     private Segmento segmento;
     
     private Cliente clinte;
     
+    private Turno turnos[];
 }

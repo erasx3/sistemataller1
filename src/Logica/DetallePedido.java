@@ -11,4 +11,12 @@ package Logica;
  */
 public class DetallePedido {
     
+    private int codDetalle;
+    private short cantidad;
+    private String descripcion;
+    
+    private Pedido pedido;
+    private TipoEstado tipoEstado;
+    private Repuesto repuesto;
+    private DisponibilidadParte disponibilidad;
 }
