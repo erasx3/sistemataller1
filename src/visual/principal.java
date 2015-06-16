@@ -31,12 +31,17 @@ public class principal extends javax.swing.JFrame {
         jMenuArchivo = new javax.swing.JMenu();
         jmenuCliente = new javax.swing.JMenu();
         jMenuINuevoCliente = new javax.swing.JMenuItem();
-        jSeparator1 = new javax.swing.JPopupMenu.Separator();
         jMenuIListaClientes = new javax.swing.JMenuItem();
         jMenuVehiculo = new javax.swing.JMenu();
         jMenuINuevoVehiculo = new javax.swing.JMenuItem();
-        jSeparator2 = new javax.swing.JPopupMenu.Separator();
         jMenuIListaVehiculos = new javax.swing.JMenuItem();
+        jSeparator3 = new javax.swing.JPopupMenu.Separator();
+        jMenuVehiculoCaracteristicas = new javax.swing.JMenu();
+        jMenuIABMMarca = new javax.swing.JMenuItem();
+        jMenuIABMModelo = new javax.swing.JMenuItem();
+        jMenuIABMSegmento = new javax.swing.JMenuItem();
+        jMenuIABMEquipamiento = new javax.swing.JMenuItem();
+        jMenuIABMAccesorios = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -52,7 +57,6 @@ public class principal extends javax.swing.JFrame {
             }
         });
         jmenuCliente.add(jMenuINuevoCliente);
-        jmenuCliente.add(jSeparator1);
 
         jMenuIListaClientes.setText("Lista de clientes");
         jMenuIListaClientes.addActionListener(new java.awt.event.ActionListener() {
@@ -68,7 +72,6 @@ public class principal extends javax.swing.JFrame {
 
         jMenuINuevoVehiculo.setText("Nuevo");
         jMenuVehiculo.add(jMenuINuevoVehiculo);
-        jMenuVehiculo.add(jSeparator2);
 
         jMenuIListaVehiculos.setText("Lista de Vehiculos");
         jMenuIListaVehiculos.addActionListener(new java.awt.event.ActionListener() {
@@ -77,6 +80,36 @@ public class principal extends javax.swing.JFrame {
             }
         });
         jMenuVehiculo.add(jMenuIListaVehiculos);
+        jMenuVehiculo.add(jSeparator3);
+
+        jMenuVehiculoCaracteristicas.setText("Caracteristicas");
+
+        jMenuIABMMarca.setText("Marca");
+        jMenuIABMMarca.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuIABMMarcaActionPerformed(evt);
+            }
+        });
+        jMenuVehiculoCaracteristicas.add(jMenuIABMMarca);
+
+        jMenuIABMModelo.setText("Modelo");
+        jMenuVehiculoCaracteristicas.add(jMenuIABMModelo);
+
+        jMenuIABMSegmento.setText("Segmento");
+        jMenuIABMSegmento.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuIABMSegmentoActionPerformed(evt);
+            }
+        });
+        jMenuVehiculoCaracteristicas.add(jMenuIABMSegmento);
+
+        jMenuIABMEquipamiento.setText("Equipamiento");
+        jMenuVehiculoCaracteristicas.add(jMenuIABMEquipamiento);
+
+        jMenuIABMAccesorios.setText("Accesorios");
+        jMenuVehiculoCaracteristicas.add(jMenuIABMAccesorios);
+
+        jMenuVehiculo.add(jMenuVehiculoCaracteristicas);
 
         jMenuArchivo.add(jMenuVehiculo);
 
@@ -112,6 +145,14 @@ public class principal extends javax.swing.JFrame {
     private void jMenuIListaVehiculosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuIListaVehiculosActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jMenuIListaVehiculosActionPerformed
+
+    private void jMenuIABMMarcaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuIABMMarcaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuIABMMarcaActionPerformed
+
+    private void jMenuIABMSegmentoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuIABMSegmentoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuIABMSegmentoActionPerformed
 
     /**
      * @param args the command line arguments
@@ -151,14 +192,19 @@ public class principal extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenu jMenuArchivo;
+    private javax.swing.JMenuItem jMenuIABMAccesorios;
+    private javax.swing.JMenuItem jMenuIABMEquipamiento;
+    private javax.swing.JMenuItem jMenuIABMMarca;
+    private javax.swing.JMenuItem jMenuIABMModelo;
+    private javax.swing.JMenuItem jMenuIABMSegmento;
     private javax.swing.JMenuItem jMenuIListaClientes;
     private javax.swing.JMenuItem jMenuIListaVehiculos;
     private javax.swing.JMenuItem jMenuINuevoCliente;
     private javax.swing.JMenuItem jMenuINuevoVehiculo;
     private javax.swing.JMenuBar jMenuPrincipal;
     private javax.swing.JMenu jMenuVehiculo;
-    private javax.swing.JPopupMenu.Separator jSeparator1;
-    private javax.swing.JPopupMenu.Separator jSeparator2;
+    private javax.swing.JMenu jMenuVehiculoCaracteristicas;
+    private javax.swing.JPopupMenu.Separator jSeparator3;
     private javax.swing.JMenu jmenuCliente;
     // End of variables declaration//GEN-END:variables
 }

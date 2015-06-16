@@ -22,8 +22,6 @@
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuINuevoClienteActionPerformed"/>
                   </Events>
                 </MenuItem>
-                <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator1">
-                </MenuItem>
                 <MenuItem class="javax.swing.JMenuItem" name="jMenuIListaClientes">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Lista de clientes"/>
@@ -44,8 +42,6 @@
                     <Property name="text" type="java.lang.String" value="Nuevo"/>
                   </Properties>
                 </MenuItem>
-                <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator2">
-                </MenuItem>
                 <MenuItem class="javax.swing.JMenuItem" name="jMenuIListaVehiculos">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Lista de Vehiculos"/>
@@ -54,6 +50,46 @@
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuIListaVehiculosActionPerformed"/>
                   </Events>
                 </MenuItem>
+                <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator3">
+                </MenuItem>
+                <Menu class="javax.swing.JMenu" name="jMenuVehiculoCaracteristicas">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Caracteristicas"/>
+                  </Properties>
+                  <SubComponents>
+                    <MenuItem class="javax.swing.JMenuItem" name="jMenuIABMMarca">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Marca"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuIABMMarcaActionPerformed"/>
+                      </Events>
+                    </MenuItem>
+                    <MenuItem class="javax.swing.JMenuItem" name="jMenuIABMModelo">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Modelo"/>
+                      </Properties>
+                    </MenuItem>
+                    <MenuItem class="javax.swing.JMenuItem" name="jMenuIABMSegmento">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Segmento"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuIABMSegmentoActionPerformed"/>
+                      </Events>
+                    </MenuItem>
+                    <MenuItem class="javax.swing.JMenuItem" name="jMenuIABMEquipamiento">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Equipamiento"/>
+                      </Properties>
+                    </MenuItem>
+                    <MenuItem class="javax.swing.JMenuItem" name="jMenuIABMAccesorios">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Accesorios"/>
+                      </Properties>
+                    </MenuItem>
+                  </SubComponents>
+                </Menu>
               </SubComponents>
             </Menu>
           </SubComponents>
