@@ -103,7 +103,7 @@ public class VehiculoLista extends javax.swing.JInternalFrame {
                     .addComponent(jTextBuscarVehiculo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButtonEliminarVehiculo)
                     .addComponent(jButtonNuevoVehiculo))
-                .addGap(0, 11, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         pack();

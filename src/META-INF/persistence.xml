@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="sistemataller1PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>Persistencia.Accesorio</class>
+    <class>Persistencia.Actividad</class>
+    <class>Persistencia.Anomalia</class>
+    <class>Persistencia.Cliente</class>
+    <class>Persistencia.DetallePedido</class>
+    <class>Persistencia.Diagnostico</class>
+    <class>Persistencia.DisponibilidadParte</class>
+    <class>Persistencia.Empleado</class>
+    <class>Persistencia.Equipamiento</class>
+    <class>Persistencia.Especialidad</class>
+    <class>Persistencia.Estado</class>
+    <class>Persistencia.EstadoOperacion</class>
+    <class>Persistencia.Garantia</class>
+    <class>Persistencia.GrupoParte</class>
+    <class>Persistencia.Impuesto</class>
+    <class>Persistencia.Localidad</class>
+    <class>Persistencia.Marca</class>
+    <class>Persistencia.Modelo</class>
+    <class>Persistencia.Nivel</class>
+    <class>Persistencia.Operacion</class>
+    <class>Persistencia.ParteSolicitar</class>
+    <class>Persistencia.Pedido</class>
+    <class>Persistencia.Persona</class>
+    <class>Persistencia.Provincia</class>
+    <class>Persistencia.Reparacion</class>
+    <class>Persistencia.Repuesto</class>
+    <class>Persistencia.Segmento</class>
+    <class>Persistencia.Taller</class>
+    <class>Persistencia.TipoEstado</class>
+    <class>Persistencia.Turno</class>
+    <class>Persistencia.Vehiculo</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="pepe"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="pepepepe"/>
+      <property name="javax.persistence.schema-generation.database.action" value="create"/>
+    </properties>
+  </persistence-unit>
+</persistence>
