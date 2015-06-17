@@ -25,7 +25,7 @@ public class Provincia implements Serializable {
     private Long id;
     private String provincia;
     
-    @OneToMany(cas)
+    @OneToMany()
     private List<Localidad> localidades;
 
     public String getProvincia() {
