@@ -5,9 +5,12 @@
  */
 package Persistencia;
 
-import java.util.*;
+import java.util.List;
 import java.io.Serializable;
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -21,13 +24,21 @@ import javax.persistence.OneToMany;
 public class Provincia implements Serializable {
     private static final long serialVersionUID = 1L;
     @Id
+    @Column(name="id")
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    
+    @Column(name="provincia")
     private String provincia;
     
-    @OneToMany()
-    private List<Localidad> localidades;
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "localidad",
+               fetch = FetchType.LAZY)
+    private List localidades;
 
+    public Provincia(String provincia) {
+        this.provincia=provincia;
+    }
+    
     public String getProvincia() {
         return provincia;
     }

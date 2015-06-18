@@ -5,6 +5,12 @@
  */
 package visual;
 
+
+import Persistencia.Provincia;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
 /**
  *
  * @author manuve
@@ -14,6 +20,23 @@ public class principal extends javax.swing.JFrame {
     /**
      * Creates new form principal
      */
+//     public static void main(String[] args) 
+//   {
+//      EntityManagerFactory emfactory = Persistence.createEntityManagerFactory( "sistemataller1PU" );
+//      EntityManager entitymanager = emfactory.createEntityManager( );
+//      entitymanager.getTransaction( ).begin( );
+//
+//      //Create Clas Entity
+//      Provincia clas1=new Provincia("misiones");
+//      Provincia clas2=new Provincia("catamarca");
+//      Provincia clas3=new Provincia("entre rios");
+//
+//      //Store Clas
+//      entitymanager.persist(clas1);
+//      entitymanager.persist(clas2);
+//      entitymanager.persist(clas3);
+//      
+//   }
     public principal() {
         initComponents();
     }
